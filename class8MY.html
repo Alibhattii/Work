@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position property</title>
+   <style>
+    .header{
+        width:100vw;
+        height:40px;
+        background-color: green;
+        border:2px solid black;
+        display: flex;
+        justify-content:space-between;
+    }
+    .mainpart{
+        margin-top:20px;
+        display:flex;
+        justify-content: space-between;
+        gap:20px;
+    }
+    .aside{
+        height: 400px;
+        width: 250px;
+        background-color: orangered;
+        font-size: large;
+    }
+    .article{
+        height: 400px;
+        width: 250px;
+        background-color: orangered;
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-between;
+        gap: 2px;
+    }
+    .image1{
+        height: 300px;
+        width: 250px;
+        background-color: brown;
+        margin-top: 100px;
+    }
+    .image2{
+        height: 300px;
+        width: 250px;
+        background-color: brown;
+        margin-top: 100px;
+    }
+    .image3{
+        height: 300px;
+        width: 250px;
+        background-color: brown;
+        margin-top: 100px;
+    }
+    .footer{
+        margin-top: 20px;
+        width: 100vw;
+        height: 70px;
+        background-color: green;
+        border: 2px solid black;
+        display: flex;
+        justify-content:space-between;
+    }
+   </style>
+</head>
+<body>
+    <div>
+        <div class="header">Header</div>
+        <div class="mainpart">
+            <div class="aside"> Aside</div>
+            <div class="article">Article
+                <div class="image1">image1</div>
+                <div class="image2">image2</div>
+                <div class="image3">image2</div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>

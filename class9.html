@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS position</title>
+    <style>
+        /* position have 2 type 
+        1:absoulte
+        2:relative */
+        /* filter
+        use for change color and filter the picture
+        e.g filter: invert(0.5);][filter: blur();]
+         */
+         
+
+
+        div{
+            border: 2px solid;
+            height:1800px;
+            width: 70vw;
+            margin: auto;
+            /* float: right; */
+            overflow: hidden;
+            
+           
+
+        }
+        .box{
+            width: 50vw;
+            height: 20vh; 
+            margin: 6px;         
+        }
+        .box1{
+            background-color: aqua;
+            /* position: relative; */
+            /* left: 20px; */
+            
+            position:fixed;
+            width: 42px;
+            height: 42px;
+            right: 0px;
+            bottom: 100px;
+            /* filter: invert(); */
+        }
+        .box2{
+            background-color:red;
+             /* z-index: 1; */
+            /* position: relative;  */
+            /* position: absolute; */
+        }
+        .box3{
+            background-color:black;
+        }
+        .box4{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="box box1" ></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+</body>
+</html>
